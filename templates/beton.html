@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block title%}
+Главная страница
+{% endblock %}
+
+{% block body%}
+<br>
+<br>
+
+<div class="row" data-masonry="{&quot;percentPosition&quot;: true }" style="position: relative; height: 690px;">
+    <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 5%; top: 10px;">
+      <div class="container" >
+       <img src="static/css/img/IMG-18159c2930257952eab0be131d1a1467-V.jpg" alt="FF"  width="540" height="540" border="3">
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 35%; top: 10px;">
+      <div class="container" >
+        <img src="static/css/img/IMG-33a0d0abc7e317103a1fab4ff4e4700a-V.jpg" alt="FF"  width="540" height="540" border="3">
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 64%; top: 500px;" >
+      <div class="card">
+       <div class="card-body">
+         <i>
+          <div class="container" >
+          <h1 class="card-title">Cтоимость 1 часа работы</h1>
+          <h3 class="card-title">28 бел.руб. + НДС</h3>
+          </div>
+         </i>
+       </div>
+      </div>
+    </div>
+
+  </div>
+
+
+{% endblock %}
